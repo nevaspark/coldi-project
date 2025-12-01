@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'https://coldi-project.vercel.app:5001';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://coldi-project.vercel.app/';
 
 export const api = axios.create({
   baseURL: API_BASE,
